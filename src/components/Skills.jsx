@@ -6,7 +6,7 @@ const Skills = () => {
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-5xl font-bold mb-12">Skills</h2>
 
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
           {/* Programming Languages */}
           <div className="bg-gray-800 p-8 rounded-2xl shadow-lg flex flex-col items-center h-60">
             <FaCode className="text-6xl text-blue-400 mb-4" />
