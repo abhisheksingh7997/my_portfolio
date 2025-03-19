@@ -16,7 +16,7 @@ const Hero = () => {
                 <div className="relative z-10 text-center text-white px-4 flex flex-col items-center">
 
                     {/* Profile Picture */}
-                    <div className="w-32 h-32 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg mb-6">
+                    <div className="mt-16 sm:mt-20 md:mt-24 lg:mt-32 w-32 h-32 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg mb-6">
                         <img
                             src={ProfilePic} // Replace with your profile picture URL
                             alt="Profile"
